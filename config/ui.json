@@ -1,0 +1,59 @@
+{
+    "window": {
+        "title": "Crypto Visualizer",
+        "width": 1200,
+        "height": 820
+    },
+    "menu": {
+        "methods_menu": "Методы шифрования",
+        "settings_menu": "Настройки",
+        "help_menu": "Справка",
+        "aes_action": "AES Visualizer",
+        "feistel_action": "Сеть Фейстеля",
+        "theme_action": "Тема оформления...",
+        "about_action": "О программе"
+    },
+    "tabs": [
+        {
+            "id": "aes",
+            "title": "AES (SPN)"
+        },
+        {
+            "id": "feistel",
+            "title": "Feistel"
+        },
+        {
+            "id": "hash",
+            "title": "HASH"
+        }
+    ],
+    "feistel": {
+        "heading": "Сеть Фейстеля",
+        "subheading": "Учебный вариант: XOR с ключом → S-box → RotateRight(1), затем перенос половин блока.",
+        "inner_tabs": [
+            "Шифровка",
+            "Расшифровка",
+            "S-box",
+            "Диаграмма"
+        ],
+        "input_group_title": "Ввод данных",
+        "block_label": "Исходный блок:",
+        "block_placeholder": "Например: Привет, Фейстель!",
+        "key_label": "Ключ:",
+        "key_placeholder": "Например: секретный ключ",
+        "rounds_label": "Количество раундов:",
+        "encrypt_button": "Шифровать",
+        "decrypt_button": "Дешифровать",
+        "details_title": "Параметры и padding",
+        "result_group_title": "Результат",
+        "rounds_table_title": "Таблица раундов",
+        "round_selector_label": "Раунд:",
+        "prev_step": "← Предыдущий шаг",
+        "next_step": "Следующий шаг →",
+        "colors": {
+            "left_block": "yellow",
+            "right_block": "blue",
+            "function_result": "red"
+        }
+    }
+}
